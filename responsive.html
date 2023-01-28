@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .food img {
+            width: 75%;
+
+        }
+
+        .food {
+            border: 2px solid rgb(229, 199, 26);
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        /* smaller device */
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        /* medium device */
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Large device */
+        @media screen and (min-width: 993px) and (max-width:1200px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 1201px) and (max-width:1400px) {
+            .container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-1</h2>
+            <h2>price: 100</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eius dolorem officiis voluptatem optio
+                aperiam at, assumenda totam provident fugit quam! Iure error atque soluta autem placeat, aliquam
+                accusantium in.<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-2</h2>
+            <h2>price: 200</h2>
+            <p>Corrupti cumque architecto fugit eaque eveniet modi tempore quod molestiae eligendi? Aperiam ipsam,
+                perspiciatis similique molestias veniam sunt, omnis velit iste recusandae fuga illum fugiat quos qui?
+                Laudantium, laboriosam incidunt?<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-3</h2>
+            <h2>price: 300</h2>
+            <p>Nisi optio, beatae quidem asperiores ea dolorum non consequuntur aperiam illum commodi assumenda
+                explicabo tempora velit corrupti, dolore aliquid, odit nesciunt necessitatibus voluptas eos aspernatur
+                deleniti tenetur quisquam facere. Possimus.<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-4</h2>
+            <h2>price: 400</h2>
+            <p>Ratione molestiae enim possimus quaerat minima porro harum ipsa dolores. Vero ullam sequi, alias commodi
+                quod assumenda cupiditate consequuntur rerum eveniet quia vitae unde voluptatum deserunt, culpa ex
+                repudiandae voluptates!<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-5</h2>
+            <h2>price: 500</h2>
+            <p>Delectus voluptatem similique ex fuga earum, mollitia nihil tempora nobis molestiae alias a odio
+                inventore, impedit animi adipisci ullam officia sapiente, nostrum officiis omnis. Repellat totam
+                excepturi praesentium quia quae.<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-6</h2>
+            <h2>price: 600</h2>
+            <p>Modi qui corrupti nisi minus cumque optio quod similique hic sapiente ut quis, sequi quaerat aspernatur
+                quas laudantium nostrum maiores quibusdam magnam facilis. Esse accusamus sint totam architecto iusto.
+                Repellendus?<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-7</h2>
+            <h2>price: 700</h2>
+            <p>Reprehenderit eaque neque cum iste omnis voluptas hic cupiditate est quisquam earum, ea maiores possimus
+                ab, explicabo sint, ducimus accusantium aliquid nostrum quae asperiores culpa corporis voluptatum?
+                Voluptatem, deserunt laudantium.<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-8</h2>
+            <h2>price: 800</h2>
+            <p>Consequatur recusandae accusantium nobis vel ex possimus dolorem repellat? Provident non, distinctio
+                praesentium necessitatibus saepe itaque deleniti esse architecto commodi vero doloribus, sed maiores.
+                Illum unde dolor nisi blanditiis officia!<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-9</h2>
+            <h2>price: 900</h2>
+            <p>Quas dolorem ad, ipsum aut dolores tempora dignissimos repudiandae iste, corrupti saepe nam, perferendis
+                alias sed similique! Ab eligendi officia minus, asperiores quod inventore dolores nesciunt, cum iusto
+                porro laboriosam!<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-10</h2>
+            <h2>price: 1000</h2>
+            <p>Debitis qui quidem adipisci aliquid cupiditate fugit rerum nam minus iure earum accusamus delectus, nobis
+                in repellat omnis doloremque quam ratione nemo porro facere illo sint voluptatem quod. Cumque,
+                sed?<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-11</h2>
+            <h2>price: 1100</h2>
+            <p>Ipsum possimus nisi expedita itaque porro ut dolor consectetur illo sit velit, tempore ad! Fuga inventore
+                sapiente tempora aspernatur vero et ut saepe nam consequuntur, dicta enim, ipsum iusto
+                rerum?<button>order Now</button></p>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <h2>item-12</h2>
+            <h2>price: 1200</h2>
+            <p>Impedit voluptates quia praesentium sequi quod beatae ab recusandae ipsum fugiat eos fuga amet eaque,
+                ipsa suscipit quibusdam natus vitae nesciunt mollitia cupiditate perferendis nihil libero quisquam
+                incidunt ut. Deserunt.<button>order Now</button></p>
+        </div>
+    </div>
+</body>
+
+</html>
